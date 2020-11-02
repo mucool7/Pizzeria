@@ -4,6 +4,9 @@
 Client is website written in Angular 10.
 Serve is Api project written in .net core 3.1 webapi
 
+For Demo : http://52.15.217.2:8090/
+
+
 Requirements
 1. Angular 10
 2. Nodejs
@@ -26,7 +29,8 @@ Note: After running the app please copy the port no on which your api is runing 
 1. After Cloning repository and navigate to Client=>pizzeria and run code . to open vscode with project.
 2. Navigate to Client\pizzeria\src\app\Shared\Providers\http.service.ts file and open it on vscode.
 3. update END_POINT with the port no which is used by your api project.
-4. ng serve command to run the app.
+4. npm install to install all the packages
+5. ng serve command to run the app on localhost:4200.
 
 
 
